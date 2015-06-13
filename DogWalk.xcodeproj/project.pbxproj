@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61BF29A01B2BBE7E004DF85A /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BF299F1B2BBE7E004DF85A /* Dog.swift */; };
+		61BF29A21B2BBEB6004DF85A /* Walk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BF29A11B2BBEB6004DF85A /* Walk.swift */; };
+		61BF29A81B2BCC70004DF85A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BF29A71B2BCC70004DF85A /* ViewController.swift */; };
 		61DB7D9A1B2B3B0D0098F455 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DB7D991B2B3B0D0098F455 /* AppDelegate.swift */; };
 		61DB7D9D1B2B3B0D0098F455 /* DogWalk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61DB7D9B1B2B3B0D0098F455 /* DogWalk.xcdatamodeld */; };
-		61DB7D9F1B2B3B0D0098F455 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DB7D9E1B2B3B0D0098F455 /* ViewController.swift */; };
 		61DB7DA21B2B3B0D0098F455 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61DB7DA01B2B3B0D0098F455 /* Main.storyboard */; };
 		61DB7DA41B2B3B0D0098F455 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61DB7DA31B2B3B0D0098F455 /* Images.xcassets */; };
 		61DB7DA71B2B3B0D0098F455 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61DB7DA51B2B3B0D0098F455 /* LaunchScreen.xib */; };
 		61DB7DB31B2B3B0D0098F455 /* DogWalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DB7DB21B2B3B0D0098F455 /* DogWalkTests.swift */; };
+		61DB7DBD1B2B3DF70098F455 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DB7DBC1B2B3DF70098F455 /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +30,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		61BF299F1B2BBE7E004DF85A /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		61BF29A11B2BBEB6004DF85A /* Walk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Walk.swift; sourceTree = "<group>"; };
+		61BF29A71B2BCC70004DF85A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		61DB7D941B2B3B0D0098F455 /* DogWalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogWalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61DB7D981B2B3B0D0098F455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61DB7D991B2B3B0D0098F455 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61DB7D9C1B2B3B0D0098F455 /* DogWalk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DogWalk.xcdatamodel; sourceTree = "<group>"; };
-		61DB7D9E1B2B3B0D0098F455 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		61DB7DA11B2B3B0D0098F455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		61DB7DA31B2B3B0D0098F455 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		61DB7DA61B2B3B0D0098F455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		61DB7DAC1B2B3B0D0098F455 /* DogWalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogWalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61DB7DB11B2B3B0D0098F455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61DB7DB21B2B3B0D0098F455 /* DogWalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogWalkTests.swift; sourceTree = "<group>"; };
+		61DB7DBC1B2B3DF70098F455 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +86,15 @@
 			isa = PBXGroup;
 			children = (
 				61DB7D991B2B3B0D0098F455 /* AppDelegate.swift */,
-				61DB7D9E1B2B3B0D0098F455 /* ViewController.swift */,
 				61DB7DA01B2B3B0D0098F455 /* Main.storyboard */,
 				61DB7DA31B2B3B0D0098F455 /* Images.xcassets */,
 				61DB7DA51B2B3B0D0098F455 /* LaunchScreen.xib */,
 				61DB7D9B1B2B3B0D0098F455 /* DogWalk.xcdatamodeld */,
 				61DB7D971B2B3B0D0098F455 /* Supporting Files */,
+				61DB7DBC1B2B3DF70098F455 /* CoreDataStack.swift */,
+				61BF299F1B2BBE7E004DF85A /* Dog.swift */,
+				61BF29A11B2BBEB6004DF85A /* Walk.swift */,
+				61BF29A71B2BCC70004DF85A /* ViewController.swift */,
 			);
 			path = DogWalk;
 			sourceTree = "<group>";
@@ -215,9 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61DB7D9F1B2B3B0D0098F455 /* ViewController.swift in Sources */,
+				61BF29A81B2BCC70004DF85A /* ViewController.swift in Sources */,
 				61DB7D9A1B2B3B0D0098F455 /* AppDelegate.swift in Sources */,
 				61DB7D9D1B2B3B0D0098F455 /* DogWalk.xcdatamodeld in Sources */,
+				61BF29A01B2BBE7E004DF85A /* Dog.swift in Sources */,
+				61BF29A21B2BBEB6004DF85A /* Walk.swift in Sources */,
+				61DB7DBD1B2B3DF70098F455 /* CoreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +425,7 @@
 				61DB7DB81B2B3B0D0098F455 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61DB7DB91B2B3B0D0098F455 /* Build configuration list for PBXNativeTarget "DogWalkTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +434,7 @@
 				61DB7DBB1B2B3B0D0098F455 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
